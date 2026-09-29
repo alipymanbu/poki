@@ -1,113 +1,26 @@
-<div align="center">
+# Poki
 
-![Logo of poki Lapo](images/logo-optimized.svg)  
-# poki Lapo
-![GitHub repo size](https://img.shields.io/github/repo-size/kulupu-Lapo/poki?color=red)
-![Entry counte](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Flipu.pona.la%2Fstats.json&query=%24.entries&label=entry%20count&color=green)
-[![Static Badge](https://img.shields.io/badge/browse%20on-lipu.pona.la-%230068d3)](https://lipu.pona.la)
-****
+本仓库是「Poki」的安卓版本获取入口，附使用资料索引。
 
-</div>
+## 安装文件资源（夸克网盘）
 
-poki Lapo is a library and monolingual corpus for toki pona. Our vision is to expand to include all types of media in toki pona, including books, poetry, music, comics, posts and more. Files are transcribed by volunteers into Markdown format with metadata as shown below.
+> **Poki 安装文件资源（夸克网盘）**：[https://pan.quark.cn/s/a465e63eda7a](https://pan.quark.cn/s/a465e63eda7a)
 
-## Schemas
+## 官方项目
 
-### File metadata
+- 上游项目：[kulupu-lapo/poki](https://github.com/kulupu-lapo/poki)
 
-See also the [schema validation code](utils/validate/validate-schemas.ts).
+## 更多资料
 
-```yaml
+- [下载与安装教程](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/Poki/%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.md)
+- [免费小游戏平台入门](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/Poki/%E5%85%8D%E8%B4%B9%E5%B0%8F%E6%B8%B8%E6%88%8F%E5%B9%B3%E5%8F%B0%E5%85%A5%E9%97%A8.md)
+- [双人同屏游戏怎么一起玩](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/Poki/%E5%8F%8C%E4%BA%BA%E5%90%8C%E5%B1%8F%E6%B8%B8%E6%88%8F%E6%80%8E%E4%B9%88%E4%B8%80%E8%B5%B7%E7%8E%A9.md)
+- [在线游戏操作与设置技巧](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/Poki/%E5%9C%A8%E7%BA%BF%E6%B8%B8%E6%88%8F%E6%93%8D%E4%BD%9C%E4%B8%8E%E8%AE%BE%E7%BD%AE%E6%8A%80%E5%B7%A7.md)
+- [打不开或加载失败的解决方法](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/Poki/%E6%89%93%E4%B8%8D%E5%BC%80%E6%88%96%E5%8A%A0%E8%BD%BD%E5%A4%B1%E8%B4%A5%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95.md)
+- [游戏进度与存档说明](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/Poki/%E6%B8%B8%E6%88%8F%E8%BF%9B%E5%BA%A6%E4%B8%8E%E5%AD%98%E6%A1%A3%E8%AF%B4%E6%98%8E.md)
+- [给孩子玩的家长须知](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/Poki/%E7%BB%99%E5%AD%A9%E5%AD%90%E7%8E%A9%E7%9A%84%E5%AE%B6%E9%95%BF%E9%A1%BB%E7%9F%A5.md)
+- [全部软件目录](https://github.com/alipymanbu/Android/blob/master/%E5%85%A8%E9%83%A8%E8%BD%AF%E4%BB%B6%E7%9B%AE%E5%BD%95.md)
+
 ---
-# If one of these fields is missing from your text, set its value to `null`
-title:
-description:
-authors:
-  - 
-proofreaders:
-  - 
-date: # yyyy-mm-dd
-date-precision: # day, month, year, none
-original:
-  title:
-  authors:
-    -
-tags:
-  -
-license:
-sources:
-  - 
-archives:
-  - 
-preprocessing:
-accessibility-notes:
-notes:
----
-```
 
-### Collection metadata
-```yaml
-name:
-sources:
-  -
-items:
-  -
-```
-
-## Sources
-
-| Name                                                  | Made / maintained by | Issue                                          | Claimed by            |
-|-------------------------------------------------------|----------------------|------------------------------------------------|-----------------------|
-| lipu kule ([site][lk site] / [repo][lk repo])         | akesi Jan            | https://github.com/kulupu-lapo/poki/issues/9   | kala Asi              |
-| Writing contests ([site][um site] / [repo][um repo])  | jan Lakuse           | https://github.com/kulupu-lapo/poki/issues/11  | kala Asi              |
-| kalama sin ([site][ks site] / [ws][ks ws])            | various              | https://github.com/kulupu-lapo/poki/issues/12  | kala Asi              |
-| lipu tenpo ([site][lt site] / [repo][lt repo])        | jan Alonola          | https://github.com/kulupu-lapo/poki/issues/10  | ijo vivi              |
-| [TP Library][tonyu lib]                               | kala pona Tonyu      | https://github.com/kulupu-lapo/poki/issues/22  | jan Juwan             |
-| Personal websites                                     | various              | https://github.com/kulupu-lapo/poki/issues/17  | ijo vivi              |
-| Song collection ([yt][songs yt] / [docs][songs doc])  | jan Ke Tami          | No                                             | jan Juwan             |
-| [Wikisource]                                          | various              | No                                             |                       |
-| [kijetesantakalu o!][kije o]                          | jan Ke Tami          | No                                             | ijo vivi              |
-| [Archive Of Our Own][AO3]                             | various              | No                                             | ijo vivi              |
-| [jan Lentan's blog posts][Lentan]                     | jan Lentan           | No                                             | jan Kita              |
-| [lipu monsuta]                                        | soweli kina          | No                                             | jan Kita              |
-| [jan Telakoman's blog posts][Telakoman]               | jan Telakoman        | No                                             | jan Kita              |
-| [Storyweaver]                                         | various              | No                                             | jan Kita              |
-| [tokipona.net corpus][nltk-tp]                        | jan Mato             | https://github.com/kulupu-lapo/poki/issues/133 | jan Lilipe            |
-
-[lk site]:https://lipukule.org/
-[lk repo]:https://github.com/lipukule/lipu-kule
-[um site]:https://utala.pona.la
-[um repo]:https://github.com/raacz/utala
-[ks site]:https://redcircle.com/shows/kalama-sin
-[ks ws]:https://wikisource.org/wiki/Kalama_sin
-[lt site]:https://liputenpo.org/
-[lt repo]:https://github.com/lipu-tenpo/liputenpo.org
-[songs yt]:https://www.youtube.com/playlist?list=PLc7R2x5fn6AqRFUR9JzGIqh0FMdtsXRnH
-[songs doc]:https://docs.google.com/spreadsheets/d/1qXextl70wJUo9xJ0VzECLXb3smiroQDT8U2_aAb_ycM/edit
-[tonyu lib]:https://docs.google.com/document/d/1IdMucmhPCzvoUF94Gp25XCwocWOl4PfQ_wfOkiU8cu8/edit?usp=sharing
-[Wikisource]:https://wikisource.org/wiki/Category:Toki_pona
-[kije o]:https://kijetesantakalu-o.tumblr.com/tagged/comic
-[AO3]:https://archiveofourown.org/works/search?work_search%5Blanguage_id%5D=tok
-[Lentan]:https://lipu-sona.pona.la/lentan/
-[lipu monsuta]:https://lipumonsuta.neocities.org/
-[Telakoman]:https://joelthomastr.github.io/tokipona/README_si
-[Storyweaver]:https://storyweaver.org.in/en/stories?language=Toki+Pona
-[nltk-tp]:https://github.com/matthewdeanmartin/tokipona.parser/tree/master/BasicTypes/Tp/Corpus
-
-## Contributing
-
-<div align="center">
-  <a href="https://github.com/kulupu-lapo/poki/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=kulupu-lapo/poki" />
-  </a>
-</div>
-
-Feel free to post issues, fork the repo, and open pull requests with your changes.  \
-You can also join the "ma pona pi toki pona" discord to talk to the maintainers.
-
-Thank you to [ilo Nija](https://nia.dog/) for the creating the logo.
-
-# License
-
-The creative works listed in `plaintext` all belong to their respective copyright holders.  \
-The logo is licensed under [CC0 1.0 Universal](https://creativecommons.org/public-domain/cc0/).
+> 本仓库由上游项目 fork 而来，原始说明见[上游仓库](https://github.com/kulupu-lapo/poki)。
